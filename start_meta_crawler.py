@@ -31,13 +31,13 @@ class LoadConfig:
             self.config = json.load(f)
 
     def get_buff_cookie(self):
-        return self.config["buff_cookies"]
+        return self.config["buff_cookie"]
 
     def get_c5_cookie(self):
-        return self.config["c5_cookies"]
+        return self.config["c5_cookie"]
 
     def get_uuyp_cookie(self):
-        return self.config["uuyp_cookies"]
+        return self.config["uuyp_cookie"]
 
 
 # # load buff_cookie
